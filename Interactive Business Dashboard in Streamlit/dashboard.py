@@ -86,7 +86,7 @@ st.markdown("""
 # ─── LOAD & CLEAN DATA ─────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Global_Superstore2.csv", encoding='latin1')
+    df = pd.read_csv("Interactive Business Dashboard in Streamlit/Global_Superstore2.csv", encoding='latin1')
     # Standardise column names
     df.columns = df.columns.str.strip()
 
